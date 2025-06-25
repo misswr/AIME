@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Media Generator</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Generate Content</h2>
+            <label>Describe what you want to create</label>
+            <textarea placeholder="A majestic dragon flying over a medieval castle at sunset..."></textarea>
+
+            <h3>Content Type</h3>
+            <div class="buttons">
+                <button>🖼 Image</button>
+                <button>🎥 Video</button>
+                <button>✏️ Edit</button>
+            </div>
+
+            <h3>Number of Variations</h3>
+            <select>
+                <option>1 variation</option>
+                <option selected>2 variations</option>
+                <option>3 variations</option>
+            </select>
+
+            <h3>Output Format</h3>
+            <select>
+                <option selected>JPG - Best for photos</option>
+                <option>PNG</option>
+            </select>
+
+            <h3>Resolution</h3>
+            <select>
+                <option>512×512</option>
+                <option selected>1024×1024 - High Quality</option>
+            </select>
+
+            <button class="generate">Generate Content</button>
+        </div>
+
+        <div class="main">
+            <div class="logo">🧠</div>
+            <h1>Ready to Create Something Amazing?</h1>
+            <p>
+                Describe your vision and let our AI bring it to life. Choose between images and videos, customize the settings, and watch the magic happen.
+            </p>
+            <div class="options">
+                <div>⚡ Fast Generation</div>
+                <div>🎨 Multiple Styles</div>
+                <div>⬇️ Easy Download</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="output" style="padding: 20px; text-align: center;"></div>
+    <script src="assets/script.js"></script>
+    <div id="output"></div>
+    <script src="assets/script.js"></script>
+</body>
+    
+</html>
